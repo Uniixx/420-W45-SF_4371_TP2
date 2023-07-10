@@ -2,6 +2,10 @@
 ### 2023-07-10
 #### Travaux pratique pour le programme du Cégep St-Foy en Installation des serveurs et des services qui consiste à la création d'un système de conteneurs selon une description
 
+#### Section 1 - étape 1
+Vérification de l'installation de docker compose et docker
+![docker](https://github.com/Uniixx/420-W45-SF_4371_TP2/blob/main/images/verificationdocker.png?raw=true)
+
 #### Section 1 - étape 2
 1. Création du réseau virtuel mon_reseau
 > docker network create mon_reseau
@@ -23,3 +27,5 @@ Pour identifier l'utilisateur on doit fouiller dans les logs en utilisant la com
 >
 
 >{"t":{"$date":"2023-07-10T16:08:26.583+00:00"},"s":"I",  "c":"COMMAND",  "id":51803,   "ctx":"conn10","msg":"Slow query","attr":{"type":"command","ns":"admin.$cmd","appName":"mongosh 1.10.1","command":{"createUser":"adminmongo","pwd":"xxx","roles":[{"role":"root","db":"admin"}],"lsid":{"id":{"$uuid":"e8e4b770-de88-4652-8f3e-5e0bbce9115f"}},"$db":"admin"},"numYields":0,"reslen":38,"locks":{"ParallelBatchWriterMode":{"acquireCount":{"r":4}},"FeatureCompatibilityVersion":{"acquireCount":{"w":4}},"ReplicationStateTransition":{"acquireCount":{"w":4}},"Global":{"acquireCount":{"w":4}},"Database":{"acquireCount":{"w":4}},"Collection":{"acquireCount":{"w":4}},"Mutex":{"acquireCount":{"r":5}}},"flowControl":{"acquireCount":4,"timeAcquiringMicros":7},"storage":{},"remote":"127.0.0.1:33662","protocol":"op_msg","durationMillis":297}}
+
+![docker](https://github.com/Uniixx/420-W45-SF_4371_TP2/blob/main/images/monreseau.png?raw=true)
